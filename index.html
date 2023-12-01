@@ -36,7 +36,7 @@
 
             var interestedAmount = (principal * Math.pow(1 + (rate / 100), n));
             console.log(interestedAmount.toFixed(2))
-            result.textContent = interestedAmount - principal
+            result.textContent = (interestedAmount - principal).toFixed(2)
         }
     </script>
 </body>
